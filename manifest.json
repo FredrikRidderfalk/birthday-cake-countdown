@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Cake Date Countdown",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "cake.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
