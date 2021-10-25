@@ -4,15 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
     <title>Birthday Cake Countdown!</title>
   </head>
   <body>
-    <h1 id="countdown">count down here</h1>
+    <h3>Days : Hours : Minutes : Seconds</h3>
+    <h1 id="countdown"></h1>
     <div>
-      <img class="cake" src="cake.png" alt="there will be cake" />
+      <audio id="audio">
+        <source src="nom.mp3" type="audio/mp3" />
+      </audio>
+      <img
+        class="cake"
+        onclick="playPauseSong()"
+        src="cake.png"
+        alt="there will be cake"
+      />
     </div>
-    <h2 id="wish">There will be cake</h2>
+    <h2 id="wish"></h2>
     <script src="app.js"></script>
   </body>
 </html>
