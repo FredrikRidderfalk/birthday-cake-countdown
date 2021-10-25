@@ -5,9 +5,16 @@
 }
 
 body {
-  padding: 10px;
   margin: 0 auto;
   text-align: center;
+  font-family: "Sue Ellen Francisco", cursive;
+  background: linear-gradient(
+    160deg,
+    rgba(255, 173, 173, 1) 0%,
+    rgba(192, 181, 255, 1) 79%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 div {
@@ -15,10 +22,26 @@ div {
   justify-content: center;
 }
 
+h1,
+h2 {
+  color: #ff447c;
+}
+
 h1 {
-  color: mediumslateblue;
+  font-size: 62px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  position: relative;
+  top: 50px;
+  letter-spacing: 2px;
 }
 
 .cake {
   max-width: 200px;
+  cursor: pointer;
 }
